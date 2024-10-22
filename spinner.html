@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge" /> 
+	<meta name="viewport" content= 
+"width=device-width, initial-scale=1.0" /> 
+	<title>GFG</title> 
+
+	<style> 
+		/* for centering the div */ 
+		body { 
+			display: grid; 
+			place-items: center; 
+		} 
+		
+		/* div properties */ 
+	.spinner { 
+			margin-top: 50px; 
+			width: 100px; 
+			height: 100px; 
+			animation: Morph 2000ms infinite; 
+		} 
+		
+		/* keyframe animation */ 
+
+		@keyframes Morph { 
+			0%, 
+			100% { 
+				border-radius: 50%; 
+				transform: rotate(0deg); 
+				background-color: rgb(255, 230, 0); 
+			} 
+
+			50% { 
+				border-radius: 0%; 
+				transform: rotate(180deg); 
+				background-color: rgb(0, 130, 0); 
+			} 
+		} 
+	</style> 
+</head> 
+<body> 
+	<h1 style="color:green">GeeksforGeeks</h1> 
+	<h2>Morph animation</h2> 
+	<div class="spinner"></div> 
+</body> 
+</html> 

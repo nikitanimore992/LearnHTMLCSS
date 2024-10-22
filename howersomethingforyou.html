@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<TItle>YOUR CARD</TItle>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+    body {
+        background-color: rgb(16, 18, 160);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .main_box {
+        position: relative;
+        width: 42em;
+        height: 25em;
+        display: flex;
+        align-items: center;
+        border-radius: 1.5em;
+        transition: .5s;
+    }
+
+    .main_box .circle {
+        position: absolute;
+        top: 6%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5em;
+        overflow: hidden;
+    }
+
+    .main_box .circle::before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        clip-path: circle(7.5em at center);
+        transition: .4s;
+    }
+
+    h1 {
+        margin-right: 1em;
+    }
+
+    .main_box:hover .circle::before {
+        clip-path: circle(30em at center);
+        background: white;
+    }
+
+    .main_box img {
+        top: 50%;
+        left: 50%;
+        height: 20.75em;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        pointer-events: none;
+        transition: 0.4s;
+    }
+
+    .main_box:hover img {
+        left: 80%;
+        top: 14.25em;
+        height: 20em;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .main_box .content {
+        position: relative;
+        width: 50%;
+        background: white;
+        padding: 1.25em 1.25em 1.25em 2.5em;
+        transition: .5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .main_box:hover .content {
+        left: 10%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .main_box .content h2 {
+        text-transform: uppercase;
+        font-size: 2em;
+        line-height: 1em;
+    }
+
+    .main_box .content p {
+        color: #fff;
+    }
+
+    .main_box .content a {
+        position: relative;
+        text-decoration: none;
+        color: rgb(151, 12, 12);
+        padding: .6em 1.25em;
+        margin-top: 0.6em;
+        display: inline-block;
+
+    }
+
+    h4 i {
+        color: rgb(228, 37, 37);
+    }
+
+    h3 i {
+        color: red;
+
+    }
+</style>
+
+<body>
+    <h1>Something for you----) </h1>
+    <div class="main_box">
+        <div class="circle"></div>
+        <div class="content">
+            <h2></h2>
+            <br>
+            <p style="font-size: 25px; color: rgb(255, 85, 0);">
+                The Best gift we can give
+                to someone , isn't something
+                fancy or expancive,
+                it's........<br><br>
+                <center>
+                    <h4 style="color: rgb(164, 17, 17);"><a href="keyeffect.html">LOVE</a> <i class="fa-solid fa-heart"></i> CARE</h4>
+                </center>
+            </p>
+            <br>
+            <br><br>
+            <h3 style="color: rgb(161, 21, 21);">I LOVE YOU MERA BACCHA</h3>
+            <center>
+                <h3><i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i> <i
+                        class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i> <i
+                        class="fa-solid fa-heart"></i></h3>
+            </center>
+        </div>
+        <img src="WhatsApp Image 2024-02-19 at 02.01.49_1bc3f3d4.jpg">
+    </div>
+</body>
+
+</html>

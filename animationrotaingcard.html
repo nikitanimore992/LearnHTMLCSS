@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+	<!-- CSS code -->
+	<style>
+		.card {
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			display: inline-block;
+			border-radius: 10px;
+			padding: 15px 25px;
+			box-sizing: border-box;
+			cursor: pointer;
+			margin: 10px 15px;
+			transition: transform 0.5s;
+			background-position: right;
+			background-size: cover;
+			transform: rotate(45deg);
+		}
+		.GFG {
+			margin-top: 170px;
+			margin-left: 600px;
+			background-image: url(
+https://media.geeksforgeeks.org/wp-content/uploads/20230530074745/gfg.png);
+		}
+		.card:hover {
+			transform: translateY(-10px);
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Give a proper heading-->
+	<h1 style="color: green; text-align: center;">
+		GeeksForGeeks Rotating Card
+	</h1>
+	<div class="container">
+		<!-- Create a class to build the 
+			structure of card using div-->
+		<div class="card GFG"></div>
+	</div>
+</body>
+
+</html>

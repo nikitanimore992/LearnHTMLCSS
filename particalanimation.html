@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks Pure CSS Particle Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgb(41, 37, 37);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .text-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(255, 193, 59);
+        text-shadow: 2px 1px 5px crimson;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .text-content h1 {
+        font-size: 4rem;
+    }
+
+    .text-content p {
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: lighter;
+        width: 80%;
+    }
+
+    .particle-container .particle {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background: radial-gradient(rgb(255, 245, 153) 40%, rgb(247, 211, 51), orange, rgb(255, 81, 0));
+        box-shadow: 3px 5px 10px rgba(255, 255, 255, 0.514);
+
+    }
+
+    .particle-container .particle:nth-child(1) {
+        top: 12%;
+        left: 42%;
+        animation: particle-motion 1s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(2) {
+        top: 70%;
+        left: 50%;
+        animation: particle-motion 7s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(3) {
+        top: 17%;
+        left: 6%;
+        animation: particle-motion 9s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(4) {
+        top: 20%;
+        left: 60%;
+        animation: particle-motion 10s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(5) {
+        top: 67%;
+        left: 10%;
+        animation: particle-motion 6s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(6) {
+        top: 80%;
+        left: 70%;
+        animation: particle-motion 11s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(7) {
+        top: 60%;
+        left: 80%;
+        animation: particle-motion 6s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(8) {
+        top: 32%;
+        left: 25%;
+        animation: particle-motion 6s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(9) {
+        top: 90%;
+        left: 25%;
+        animation: particle-motion 9s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(10) {
+        top: 10%;
+        left: 80%;
+        animation: particle-motion 5s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(11) {
+        top: 24%;
+        left: 82%;
+        animation: particle-motion 10s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(12) {
+        top: 97%;
+        left: 5%;
+        animation: particle-motion 7s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(13) {
+        top: 97%;
+        left: 60%;
+        animation: particle-motion 9s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(14) {
+        top: 30%;
+        left: 40%;
+        animation: particle-motion 5s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(15) {
+        top: 47%;
+        left: 55%;
+        animation: particle-motion 7s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(16) {
+        top: 70%;
+        left: 80%;
+        animation: particle-motion 8s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(17) {
+        top: 40%;
+        left: 40%;
+        animation: particle-motion 10s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(18) {
+        top: 23%;
+        left: 15%;
+        animation: particle-motion 4s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(19) {
+        top: 90%;
+        left: 90%;
+        animation: particle-motion 3s linear infinite;
+    }
+
+    .particle-container .particle:nth-child(20) {
+        top: 85%;
+        left: 95%;
+        animation: particle-motion 7s linear infinite;
+    }
+    p i{
+        color: rgb(165, 19, 19);
+    }
+
+    @keyframes particle-motion {
+        0% {
+            transform: translate(0);
+            opacity: 1;
+        }
+
+        20% {
+            transform: translate(5px -20px);
+            opacity: 0.8;
+        }
+
+        40% {
+            transform: translate(-10px, -30px);
+            opacity: 0.7;
+        }
+
+        60% {
+            transform: translate(15px, -40px);
+            opacity: 0.5;
+        }
+
+        80% {
+            transform: translate(-20px, -60px);
+            opacity: 0.2;
+        }
+
+        100% {
+            transform: translate(40px, -100px);
+            opacity: 0;
+        }
+        
+    }
+    
+</style>
+
+<body>
+    <div class="container">
+        <div class="text-content">
+            <h1>Welcome to Bhopal</h1>
+            <p>
+                This is city of lake.Bhopal is the capital city of the Indian state of Madhya Pradesh
+                and the administrative headquarters of both Bhopal <a href="howersomethingforyou.html"><i class="fa-solid fa-heart"></i></a> district and Bhopal division
+            </p>
+        </div>
+        <div class="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+</body>
+
+</html>
