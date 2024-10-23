@@ -1,0 +1,6 @@
+
+HTML 5 provides  basic and advanced concept of html out html tutorial is developed for beginners and
+professionals. In our tutorial , every topic is given step-by-step so that you can learn it in a very 
+easy way. If you are new in learning HTML, then  you can learn HTML from basic to a professional level
+and after learning HTML with css and javascript you will be able to create your own interactive and
+dynamic website . but now we will focus on html only in this tutorial.
