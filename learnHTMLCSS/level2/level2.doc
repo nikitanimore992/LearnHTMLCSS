@@ -6,4 +6,34 @@ attributes are used to add more information to the tag
 
 <html lang="en">
 
-Anchor tag used to add links to your page like apko apke page me koi another page ki link add karni ho then you should go for anchor tag
+<a> Anchor tag used to add links to your page like apko apke page me koi another page ki link add karni ho then you should go for anchor tag
+
+
+<br> tag  used to add nextline (line breaks )to your page.
+
+br tage ek empty tag hota he
+
+bold italic and underline tages
+ it is used to highligh text in your page
+ <b> bold</b>
+ <i> itlic</i>
+ <u> underline text</u>
+
+
+ bit and small tags 
+
+ used to display big and small text o your page 
+
+ <big> big </big>
+ <small>Small</small>
+
+ hr tag 
+  used to display a horizontal rulaer and used to seprate content than we should go for <hr> tage 
+
+  Subscript and superscript tag
+  used to display a horizontal rular used to separate content
+
+
+  pre tag - used to dispaly text as it is (without ignoring space & next line)
+
+  
