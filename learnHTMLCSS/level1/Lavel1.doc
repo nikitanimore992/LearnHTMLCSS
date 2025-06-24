@@ -10,3 +10,16 @@ html tags  - are container for some content or other html tages
 
 like == <p>this is a pragraph  // content </p> // containe
 
+html tag us parent of head & bosy tag
+most of html elements have opening & closing tags with content in between 
+
+some tags have no content in between, eg - <br>
+
+we can use inspect element / view source to edit html
+
+html is not case sensitive 
+like -- 
+<head > you can write <HEAD>
+<body> <BODY>
+<P> <p>
+
