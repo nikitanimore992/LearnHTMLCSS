@@ -5,3 +5,17 @@ lists are used to represnt real life list data
 2 type of list we have
  - unordored
  - ordorder
+
+tables in Html
+tables are used to reprsent real life data in table 
+tr - used to dipaly table row
+td - used to dipaly table data
+th - used to dipaly table header
+
+table caption 
+caption dene ke liye use kiya jata he jise ke identfi kiya ja sake table me data kesa he 
+
+thead and tbody in tables
+thead - to wrap table head
+tbody - to wrap table body
+
