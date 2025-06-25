@@ -19,3 +19,14 @@ thead and tbody in tables
 thead - to wrap table head
 tbody - to wrap table body
 
+Forms in Html
+Forms are used to collect data from he user
+eg - sign up / login / help/ request/contect me 
+<form>
+Form contect
+</form>
+
+Action in form 
+Action attribute is used to define what action needs to be performed when a form is submitted
+<form ation="/action.php">
+
