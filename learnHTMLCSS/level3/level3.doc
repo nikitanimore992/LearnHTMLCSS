@@ -1,0 +1,90 @@
+page layout techniques
+
+using semantc tages for layout 
+ header , main , footer
+
+ lets talk about header tages
+
+inside main tag  
+    Section tag  - for a section on your page
+    Artical tag - for an artical on your page
+    aside tag - for content aside main content like (ads)
+
+Revisiting anchor tag
+        <a href="link page" target="_main">Google</a>
+
+iska use ham new tab ke liye karte (target="_main")
+
+        <a href="link page" target="_main">
+            <img src="image Link or path " alt="name of image"/>
+        </a>
+iska use karke ham kisi bhi image ko clickable bana skte he 
+
+image tage = isme ham height and width set akr skte he
+
+
+div tag 
+div is container used for other html elements Blocl element (takes full width)
+
+list pf block elements 
+
+adderess
+article
+aside
+blockquote
+canvas
+dd
+div
+dl
+dt
+fieldset
+figcaption
+figure
+form
+h1 - h6
+header
+hr
+li
+main
+nav
+noscript
+ol
+p
+pre
+
+
+span tag - span is also a container used for other html elements its inline element (takes width as per size)
+
+list of inline tags are 
+a
+abbr
+acronym
+b
+bdo
+big
+br
+button
+code
+dfn
+em
+i
+img
+input
+kbd
+label
+map
+object
+tt
+var
+output
+q
+samp
+script
+select
+small
+span
+strong
+sub
+sup
+textarea
+time
