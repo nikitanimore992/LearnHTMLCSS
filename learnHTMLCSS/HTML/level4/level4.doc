@@ -30,3 +30,10 @@ Action in form
 Action attribute is used to define what action needs to be performed when a form is submitted
 <form ation="/action.php">
 
+class and id
+div id=1 and class= group1
+div id=2 and class= group1
+
+checkbox - iska use one time me user se multiple input lene ke liye karte 
+
+textare - me ham rows="5" ese input karenge to wah 5 rows tak space dega hame and ese ham uski height bhi set kar sakte he and ese hi ham use column me de sakte he
