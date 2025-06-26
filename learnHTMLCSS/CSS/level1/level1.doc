@@ -21,3 +21,10 @@ color system----
  rgb ka full form he - red green blue 
 
 
+selector---
+    1 univercal selector (*) Asterisk
+    2 class selector [like - .myclass{}]
+    3 Element selector [like - h1{}]
+    4 Id selector [like - #myID{}]
+    
+ (&) ampersand
