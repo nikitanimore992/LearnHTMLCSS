@@ -3,7 +3,15 @@ CSS - cashcading style sheet
 
 it is language that is used to describe the style of a document.
 
-color property
-
+color ---
  used to set the color of foreground
+
+    color: red;
+
+ background color---
+ used to set the color of background
+
+    background-color: red;
+
+
 
