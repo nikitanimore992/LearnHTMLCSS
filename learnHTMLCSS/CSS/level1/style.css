@@ -13,6 +13,21 @@ h3{
 
 /* background color property */
 body{
-    background-color: aqua;
-}
+    /* background-color: aqua; */
+
+    /* background-color by using rgb(red,green, blue)color system*/
+    /* background-color: rgb(255,0,0); red */
+    /* background-color: rgb(0,255,0); green*/
+    /* background-color: rgb(0,0,255);blue */
+
+    /* backgroun-color by using hex(hexadecimal) color system */
+    /* background-color: #ff0000; for red color */
+    /* background-color: #00ff00; for green color */
+     background-color: #0000ff; 
+     
+     /* we can use color palates for color idea jisse hame identefy kar paenge kis color ke sath konsa color hamari website pr accha lagega  */
+} 
+
+
+
 
