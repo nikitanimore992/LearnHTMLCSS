@@ -28,6 +28,20 @@ body{
      /* we can use color palates for color idea jisse hame identefy kar paenge kis color ke sath konsa color hamari website pr accha lagega  */
 } 
 
+/* text-align property */
+
+div h1{
+    text-align: center; 
+    /* text-align: left;
+    text-align: right; */
+}
+div p{
+    text-align: center; 
+    /* text-align: left;
+    text-align: right; */
+}
+
+
 
 
 
