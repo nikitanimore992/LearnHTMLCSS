@@ -64,6 +64,22 @@ div a{
     text-decoration: none;
 }
 
+/* font-weight */
+div #head{
+    /* font-weight: normal; */
+    font-weight: 400;
+
+}
+div #head1{
+    font-weight: bold;
+}
+div #head2{
+    font-weight: bolder;
+}
+div #head{
+    font-weight: lighter;
+}
+
 
 
 

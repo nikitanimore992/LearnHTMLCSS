@@ -44,3 +44,13 @@ selector---
  
 text decoration ke liye refrence -- mdn refrence text-decoration document
 
+font-weight--
+   normal 
+   bold
+   boder
+   lighter
+and if we want costomize font-weight than we can do is bye using number 
+
+
+
+
