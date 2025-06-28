@@ -28,3 +28,19 @@ selector---
     4 Id selector [like - #myID{}]
     
  (&) ampersand
+
+ text-properties--
+
+ text-align---
+ text ko align krne ke liye use kiya jata he 
+ left , right and center tin arah se asighn kr sakte he and upadated css version css3 me left ko start bhi likh sakte and right ki jaga end bhi likh sakte lekin jese urdu ya kisi or language jisme ham likhna end se start kaste he waha ham changes karenge ke urdu jesi language jis tarah end se start hoti he kuch usi tarah css bhi us per work karegi
+
+ text decoration--
+  3 types of text decoration we have 
+  1 underline 
+  2 overline 
+ 3  line-through iska use karenge to text ko cut kiya gaya he esa dikhega 
+ and text decoration ko none bhi set kiya ja sakte hai jisse by defalut jo text ka decoration hota he wo hat jata he 
+ 
+text decoration ke liye refrence -- mdn refrence text-decoration document
+
