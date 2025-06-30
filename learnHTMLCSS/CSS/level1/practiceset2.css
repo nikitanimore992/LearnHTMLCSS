@@ -1,0 +1,16 @@
+/* Q2 */
+*{
+    font-family: Times new 'Times New Roman', Times, serif;
+}
+/* Q1 */
+#heading{
+    text-align: center;
+    text-transform: capitalize;
+}
+/* Q3 */
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
