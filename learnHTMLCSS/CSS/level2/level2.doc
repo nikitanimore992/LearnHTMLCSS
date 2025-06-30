@@ -11,7 +11,7 @@ height - by default it sets the contect area height of the element
 diplay propertry--
 display:inline - iske use kisi block type ke element to inline element me change karne ke liye kiya jata he 
 
-display:block; - iska use inline elements to block elemnets me change karne ke liya kar sakte hai 
+display:block; - iska use inline elements to block elemnets me change karne ke liya kar sakte hai lekin agar ham kisi bhi block element ko inline element me change karte hai to us per hamne jo bhi properties aplly ki hoti hai wo hat jat jati he means apply nahi hoti jese height and width 
 
 display:inline-block; -
 display-none; its a way to remove element from display
