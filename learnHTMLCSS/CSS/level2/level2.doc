@@ -6,3 +6,15 @@ padding
 margin
 
 height - by default it sets the contect area height of the element 
+
+
+diplay propertry--
+display:inline - iske use kisi block type ke element to inline element me change karne ke liye kiya jata he 
+
+display:block; - iska use inline elements to block elemnets me change karne ke liya kar sakte hai 
+
+display:inline-block; -
+display-none; its a way to remove element from display
+
+visiblity:hidden- 
+diplay none and visibility hidden ka meaning same hi hota he display se element ko hatana but display none me element hatne ke sath sath wo koi extra spaace bhi nahi leta jabki visobility hidden karne pr element display tp nahi hota per  space leta he uski jagah reserved hoti hai 

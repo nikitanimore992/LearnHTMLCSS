@@ -17,3 +17,26 @@
     margin: 25px;
 
 }
+
+/* display properties */
+#disinline{
+    background-color: red;
+    display: inline; 
+}
+#disblock{
+    display: block;
+}
+.inblock{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    /* display: inline;  ham is propertie ka use nhi kar skte kyuki inline use karne pr baki other properties jo hammne jinhai wo hat jati he iske replace me ham inline-block ka use karnge*/
+    display: inline-block;
+}
+#disinblock{
+    display: none;
+}
+#disinblock1{
+    visibility: hidden; 
+}
