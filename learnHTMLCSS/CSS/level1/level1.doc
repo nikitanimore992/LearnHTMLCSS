@@ -56,4 +56,12 @@ you can font style
 2 tarah ki font family hot he 
 1 inch me 96px hote hai and 
 
-line-height property---
+line-height property--
+for give space in paragraph lines
+
+text-transform--
+   uppercase - to change all sentanse to uppercase
+   lowercase - to change all sentanse to lowercase
+   capitalize - if you want to change every word first   latter capital in your paragraph
+   none -  ye  apke paragraph ko normal kar dega agar usme koi properties apply ki gayi he to
+

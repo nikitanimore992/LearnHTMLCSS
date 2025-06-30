@@ -86,7 +86,20 @@ div #head{
     line-height: 20px;
 }
 
+/*  text-tranform*/
 
+#trans{
+    text-transform: uppercase;
+}
+#trans1{
+    text-transform: lowercase;
+}
+#trans2{
+    text-transform: capitalize;
+}
+#trans3{
+    text-transform: none;
+}
 
 
 
