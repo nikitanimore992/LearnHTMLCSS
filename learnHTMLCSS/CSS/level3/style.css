@@ -30,3 +30,48 @@
     /* font-size: 2rem; */
     /* height: 50vh; */
 }
+
+/* positions propertys */
+.positionss{
+    width: 100px;
+    height: 100px;
+    background-color:blueviolet;
+    border: 2px solid black;
+    display: inline-block;
+}
+/* static */
+#box5{
+    position: static;
+    background-color: red;
+}
+/* absolute */
+#box6{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+
+}
+/* Absolute */
+#box7{
+    position: absolute;
+    top: 405px;
+    left: 260px;
+    background-color: yellow;
+}
+/* fixed */
+#box8{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    left: 0px;
+    text-align: center;
+    background-color: pink;
+    columns: 100wh;
+    color: black;
+}
+/* position sticky */
+#box9{
+   position: sticky; 
+   top: 0px;
+}

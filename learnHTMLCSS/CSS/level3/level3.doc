@@ -1,5 +1,5 @@
 
-relative units
+relative units---
 
 ye absolute unite nhi hite he jse absolute ko px me likha jata tha usi tarah relative ko percentage (%) me likha jata hai , lekin relative units har jagah alag alag hote he means for exmple mene 20% liya he to wo webpage pr alag show hota button me alag tarah se show hoga div me alag tarah se show hoga lekin pxcel (px) har jagah fixed hota hai 
 
@@ -14,3 +14,23 @@ like - agar hanme height 20% di he to wo height hamare brower page ki height ki 
 
 vw - viewport width  means jo bhi hamare present browser ki width hogi uske according width set karta he 
 like - agar hanme width 20% di he to wo width hamare brower page ki width ki 20% hogi 
+
+postions----
+the postion css property set how an elemen is positioned in a doc.
+yani agar hamare pass koi document he to us document me konsa element konse position per he  to is tarah se elements ki position ko jis property ka use karke set kiya jata he use ham position property kahte he 
+
+ ye hamare pass 4 tarah se hoti he 
+1 static - default positio (top right bottom and z-index properties have no effect)
+    by default elements ki postions hoti he elements ke andar wo static hoti he mtlb usme koi koi koi change nahi kar sakte 
+
+ 2 relative - elements is relative to itself . (the top right bottom and z-index will work )
+        jab bhi mujhe top se element me koi destanse set karna hota he  like page ke top se mera elements kitne distance pr per hona chahiye tab ham iska use karte he usi tarah se ham bottom lift right ka use kar sakte he lekin ye charo properties static ke sath nahi karti
+
+ 3 absolute - positioned relative to its closest positioned ancestor ( removed from )
+    ye document flow se hat jata he and closest ancestor ke acoording postion work karta hai kabhi kabhi ye brower ke according bhi work karta hai 
+ 
+ 4 fixed - positioned reletive to broweser (remove from flow) 
+    ye document flow se hat jata he and browser document  ke acoording postion work karta hai iska jyadatar use ham footer and header ko fixed position per rakhne ke liye karte he 
+
+ 5 sticky - positioned based on user on scroll postion
+ ye scrolling ke hisab se fixed ho jata he jo bhi ap ise postion do document flow se nahi hatta
