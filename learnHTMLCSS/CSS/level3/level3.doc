@@ -1,0 +1,16 @@
+
+relative units
+
+ye absolute unite nhi hite he jse absolute ko px me likha jata tha usi tarah relative ko percentage (%) me likha jata hai , lekin relative units har jagah alag alag hote he means for exmple mene 20% liya he to wo webpage pr alag show hota button me alag tarah se show hoga div me alag tarah se show hoga lekin pxcel (px) har jagah fixed hota hai 
+
+percentage(%) - parent ke size se relate karta hai
+
+em - fornt size to parent in the case of typographical like font size and font size of the element itself in case of other properties like width
+
+rem (root em) - em ki tarah hi work karegi but ye font size perent ke font size ke according nahi root element ke font size ke according work karega 
+
+vh - viewport height  means jo bhi hamare present browser ki heigh hogi uske according height set karta he 
+like - agar hanme height 20% di he to wo height hamare brower page ki height ki 20% hogi 
+
+vw - viewport width  means jo bhi hamare present browser ki width hogi uske according width set karta he 
+like - agar hanme width 20% di he to wo width hamare brower page ki width ki 20% hogi 
