@@ -75,3 +75,28 @@
    position: sticky; 
    top: 0px;
 }
+/* z-index */
+
+.index{
+    width: 100px;
+    height: 100px;
+}
+#index1{
+    background-color: red;
+    z-index: 0;
+    position: absolute;
+    left: 20px;
+}
+#index2{
+    background-color: purple;
+    z-index:-1 ;
+    position: absolute;
+    left: 40px;
+}
+#index3{
+    background-color:green;
+    z-index: 2;
+    position: absolute;
+    left: 60px;
+    
+}

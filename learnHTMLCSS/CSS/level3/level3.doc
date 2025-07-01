@@ -34,3 +34,11 @@ yani agar hamare pass koi document he to us document me konsa element konse posi
 
  5 sticky - positioned based on user on scroll postion
  ye scrolling ke hisab se fixed ho jata he jo bhi ap ise postion do document flow se nahi hatta
+
+ z-index-----
+ its decides the stack level of elements 
+ overlapping elements with a larger z-index cover those with a smaller one.
+
+ z-index:auto (0);
+ z-index:1/2/2/....
+ z-index:-1/-2/-3...
