@@ -18,3 +18,12 @@ display-none; its a way to remove element from display
 
 visiblity:hidden- 
 diplay none and visibility hidden ka meaning same hi hota he display se element ko hatana but display none me element hatne ke sath sath wo koi extra spaace bhi nahi leta jabki visobility hidden karne pr element display tp nahi hota per  space leta he uski jagah reserved hoti hai 
+
+Alpha channel---
+jab hamne rgb values ko padha tha to usme ham color set kar rahe the lekin yaha ham rgba value padhenge jaha baki sara part to similar hota he per a karke ek channel or add ho jata he jise ham alpha channel kahte 
+alpha channel opacity decide karta he ki koi bhi color kitna jya  dikh raha hota he hamare web page pr 
+jese hamne dekha tha ki red channel ki value -225 tak ja sakti thi vese hi alpha me value 0-1 tak ja sakti he like - 
+0.25
+0
+0.75
+0.58
