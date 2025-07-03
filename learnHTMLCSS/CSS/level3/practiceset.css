@@ -1,0 +1,18 @@
+/* Q1 */
+#bg_img{
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url(/learnHTMLCSS/CSS/level3/img/bg_dog.jpg);
+    background-size: cover;
+}
+/* Q2 */
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid black;
+}
