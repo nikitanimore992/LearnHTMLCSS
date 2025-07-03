@@ -50,3 +50,7 @@ unplash name se website he jiskause karke `background image ka use kar sakte he
 ----------------------------
 path:-https://unsplash.com/
 ----------------------------
+backgraong size - if i want to fixed the size of image than i should go for this properties
+3 types of image properties are there 
+    1 cover - it will cover all given area in backgraound and no empty spaces are there.
+    2 contain - contain ko use bhi ham backgraound-image ko set karne ke liye karte he but iska use karne pr backgraong puri image set hojane ke baad jitni bhi empty space bach jati he usme wo image repeat hokr dowara set ho jati he 

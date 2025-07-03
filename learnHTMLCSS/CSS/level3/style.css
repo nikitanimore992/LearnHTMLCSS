@@ -106,8 +106,23 @@
     width: 100px;
     height: 100px;
     display: inline-block;
-    position: static;
+    background-color: aqua;
+}
+/* background-size  */
+body{
+    background-image: url(/learnHTMLCSS/CSS/level3/img/bg_dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
 }
 #imgbox1{
-    background-color: red;
+
+    background-image: url(/learnHTMLCSS/CSS/level3/img/dog1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+    
+}
+#imgbox2{
+    background-image: url(/learnHTMLCSS/CSS/level3/img/dog2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat
 }
