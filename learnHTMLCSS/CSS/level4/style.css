@@ -1,0 +1,40 @@
+/* flexbox - flexible box layout */
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */    
+}
+#box1{
+    background-color: red;   
+}
+#box2{
+    background-color: plum;   
+}
+#box3{
+    background-color: yellowgreen;   
+}
+#box4{
+    background-color: blue;   
+}
+#box5{
+    background-color: wheat;   
+}

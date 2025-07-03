@@ -1,0 +1,21 @@
+
+flexbox - flexible box layout
+    flexbox direction  - it sets how flex items are placed in the flex container , along which axis and direction.
+
+for contaner items flex:direction--
+    flexbox-direction:row;(default)
+    flexbox-direction:row-reverse;
+    flexbox-direction:column;
+    flexbox-direction:column-reverse
+
+flex properties - for container 
+justify-container : alignment along the main axis
+-----------------
+    flex-start
+    flex-end
+    flex-center
+    flex-space-evenly
+
+
+
+
