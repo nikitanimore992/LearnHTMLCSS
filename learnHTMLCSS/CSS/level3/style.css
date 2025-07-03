@@ -100,3 +100,14 @@
     left: 60px;
     
 }
+
+/* background image */
+.imgb{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: static;
+}
+#imgbox1{
+    background-color: red;
+}

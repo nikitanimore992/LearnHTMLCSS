@@ -42,3 +42,11 @@ yani agar hamare pass koi document he to us document me konsa element konse posi
  z-index:auto (0);
  z-index:1/2/2/....
  z-index:-1/-2/-3...
+
+ backgraong image properties in css cashcading stylesheet
+ used to set an image as background
+    backgraong-image:url("image path");
+unplash name se website he jiskause karke `background image ka use kar sakte he 
+----------------------------
+path:-https://unsplash.com/
+----------------------------
