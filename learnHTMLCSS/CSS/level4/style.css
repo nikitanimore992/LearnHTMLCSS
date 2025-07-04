@@ -4,15 +4,16 @@ body{
 }
 div{
     height: 50px;
-    width: 50px;
+    width: 150px;
     display: inline-block;
     border: 2px solid black;
 }
 #container{
-    width: 800px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
+
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
@@ -21,20 +22,50 @@ div{
     /* justify-content: flex-end; */
     /* justify-content: center; */
     /* justify-content: space-around; */
-    /* justify-content: space-between; */    
+    /* justify-content: space-between; */   
+
+    /* flex-wrap: nowrap;  */
+    /* flex-wrap: wrap; */ 
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-items: start; as it is jesa rahta he wesa hi rahega */
+    /* align-items: start; */
+    /* align-items: end;
+
+     pure elements ek sath start se end me aa jayenge but container ke left butuom se ayenge */
+
+    /* align-items: center; 
+
+    pure elements ek sath start se center me aa jayenge but container ke left  se ayenge 
+     */
+
+     /* align-items: stretch;
+
+    ye property ham jyadater stretch karne ke liye use karte he   */
 }
 #box1{
     background-color: red;   
+    /* height: 50px;
+    width: 50px; */
 }
 #box2{
     background-color: plum;   
+    /* height: 100px;
+    width: 70px; */
 }
 #box3{
-    background-color: yellowgreen;   
+    background-color: yellowgreen; 
+    /* height: 70px;
+    width: 80px;   */
 }
 #box4{
     background-color: blue;   
+    /* height: 80px;
+    width: 90px; */
+
 }
 #box5{
-    background-color: wheat;   
+    background-color: wheat;  
+    /* height: 100px;
+    width: 50px;  */
 }
