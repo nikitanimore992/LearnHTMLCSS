@@ -4,28 +4,28 @@ body{
 }
 div{
     height: 50px;
-    width: 150px;
+    width: 200px;
     display: inline-block;
     border: 2px solid black;
 }
 #container{
-    width: 600px;
     height: 600px;
+    width: 600px;
 
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
 
     /* justify-content: flex-start; */
     /* justify-content: flex-end; */
-    /* justify-content: center; */
+    justify-content: center;
     /* justify-content: space-around; */
     /* justify-content: space-between; */   
 
     /* flex-wrap: nowrap;  */
-    /* flex-wrap: wrap; */ 
+    /* flex-wrap: wrap;  */
     /* flex-wrap: wrap-reverse; */
 
     /* align-items: start; as it is jesa rahta he wesa hi rahega */
@@ -34,29 +34,37 @@ div{
 
      pure elements ek sath start se end me aa jayenge but container ke left butuom se ayenge */
 
-    /* align-items: center; 
+    align-items: center; 
 
-    pure elements ek sath start se center me aa jayenge but container ke left  se ayenge 
+    
+     /* pure elements ek sath start se center me aa jayenge but container ke left  se ayenge 
      */
 
-     /* align-items: stretch;
+    /* align-items: stretch; */
 
-    ye property ham jyadater stretch karne ke liye use karte he   */
-}
+     /* ye property ham jyadater stretch karne ke liye use karte he   */
+
+     /* align-content: center; */
+     /* align-content: start;
+     align-content: end; */
+
+    }
 #box1{
     background-color: red;   
-    /* height: 50px;
-    width: 50px; */
+    height: 200px;
+   
 }
 #box2{
     background-color: plum;   
-    /* height: 100px;
-    width: 70px; */
+    height: 100px;
+    /* flex-shrink: 2; */
+
+    
 }
 #box3{
     background-color: yellowgreen; 
-    /* height: 70px;
-    width: 80px;   */
+    height: 70px;
+   
 }
 #box4{
     background-color: blue;   
