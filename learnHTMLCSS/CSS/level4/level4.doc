@@ -14,10 +14,35 @@ justify-container : alignment along the main axis
     flex-start
     flex-end
     flex-center
-    flex-space-
-    fl
+    flex-space-betwen 
+    space-evenly
+    space-arounf
+align-items = ali along with cross axis
+-------------
+align-items:    center
+                start
+                end
+flex-warp
+align-contant
 
 flex properties
+align-self - sabhi element me kisi ek element to align -------------self karke jo bh propertice direction
+
+
+align shrink -
+--------------
+
+align-grow-
+-------------
+
+
+Media Queries - help a responsive website 
+
+@media (width:600px) - us particur pixel me change ke liye 
+@media (min-width:200px) 
+@media (max-width:200px) 
+@media (min-width:200px) and (max-width:300px)- rang dene ke liye 
+
 
 
 

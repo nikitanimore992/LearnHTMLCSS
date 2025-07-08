@@ -77,3 +77,25 @@ div{
     /* height: 100px;
     width: 50px;  */
 }
+
+/* media query */
+.med{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+@media (width:600px){
+    .med{
+        background-color: blue;
+    }
+}
+@media (max-width:500px){
+    .med{
+        background-color: green;
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    .med{
+        background-color: yellow;
+    }
+}
