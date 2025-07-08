@@ -1,3 +1,5 @@
+
+/* practice set 6 */
 .navbar{
     background-color: pink;
     display: flex;
@@ -28,4 +30,32 @@ li{
     height: 100px;
     width: 100px;
     background-color: bisque;
+}
+/* practice set 7 */
+
+.ps7{
+    width: 200px;
+    height: 200px;
+    border:2px solid black;
+    background-color: chocolate;
+}
+@media (max-width:300px){
+    .ps7{
+        background-color: green;
+    }
+}
+@media (min-width:300px) and (max-with:400px){
+    .ps7{
+        background-color: pink;
+    }
+}
+@media (min-width:400px) and (max-with:600px){
+    .ps7{
+        background-color: red;
+    }
+}
+@media (max-width:600px){
+    .ps7{
+        background-color: blue;
+    }
 }
