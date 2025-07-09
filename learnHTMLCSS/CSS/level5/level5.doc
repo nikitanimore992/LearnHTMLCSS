@@ -1,0 +1,20 @@
+transition 
+transition enable you ti define the transition between two of an element.
+
+transtion-property - property you want to transition (font-size , width etc.)
+transition-duration-:2s / 4ms
+transition-timing-function: ease -in / ease-out/liner/steps..
+transition-delay: 2s/4ms
+
+transtion shorthand - property name | duration | timing-function | delay
+-----------------------------------------------
+like == transtion:font-sixe 2s ease-in-out 0.2s;
+-----------------------------------------------
+
+css transform property - used to apply 2d and 3d transformation to an element 
+1 rotate - transform rotate(45deg);
+rotate:45deg;
+rotateX:45deg;
+rotateY:45deg;
+rotateZ:45deg;
+

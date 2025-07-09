@@ -5,3 +5,78 @@
 }
 
 /* level 5 start from there  */
+
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.box1:hover{
+    background-color: red;
+    color: white
+}
+.box1:active{
+    background-color: blue;
+}
+button{
+    background-color: red;
+}
+
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: green;
+   }
+
+/* transition property */
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    /* transition-timing-function: steps(5); */
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 1s; */ 
+    transition: all 2s ease-in 1s;
+}
+.box2:hover{
+    background-color: red;
+    color: black;
+    font-size: 20px;
+}
+.box2:active{
+    background-color: wheat;
+    color: rebeccapurple;
+}
+
+/* transform property */
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    /* transform: rotate(45deg); */
+    /* transform: rotate(90deg); */
+    /* transform: rotate(180deg);
+    transform: rotate(360deg); */
+    transform: scale(1);
+
+}
+.box3:hover{
+    background-color: red;
+    color: black;
+    font-size: 20px;
+}
+.box3:active{
+    background-color: wheat;
+    color: rebeccapurple;
+}
