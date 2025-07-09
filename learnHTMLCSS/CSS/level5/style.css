@@ -68,14 +68,35 @@ button:active{
     /* transform: rotate(90deg); */
     /* transform: rotate(180deg);
     transform: rotate(360deg); */
-    transform: scale(1);
-   
+
+    /* transform: scaleY(2); */
+    /* transform: scaleX(2); */
+    /* transform: scale(2, 1); */
+    /* transform: scale(1, 2); */
+    /* transform: scale(2); */
+    /* transition: all 0.5s ease-in; */
+    transition: all 2s ease-in;
 
 }
 .box3:hover{
     background-color: red;
     color: black;
     font-size: 20px;
+    /* transform: scaleY(2); */
+    /* transform: scaleX(2); */
+    /* transform: scale(2, 1); */
+    /* transform: scale(1, 2); */
+    /* transform: scale(2); */
+
+    /* transform: rotate(360deg); */
+    
+    /* transform: translate(200px); */
+    /* transform: translate(-603px); */
+    /* transform: translateY(-200px); */
+    transform: translateY(200px);
+
+
+
 }
 .box3:active{
     background-color: wheat;
