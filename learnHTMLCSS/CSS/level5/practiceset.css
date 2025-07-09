@@ -3,3 +3,28 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+
+/* pratice set */
+
+.loder{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 20px solid rgb(233, 233, 63);
+/* border-left: 10px solid black; */
+/* border-right: 2px solid black; */
+border-top: 20px solid #4ecdc4;
+/* border-bottom: 2px solid black; */
+animation: spinanimation 3s ease-in 0s infinite normal;
+}
+
+@keyframes spinanimation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
