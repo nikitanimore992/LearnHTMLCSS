@@ -4,12 +4,14 @@
     text-transform: uppercase;
 }
 
-/* level 5 start from there  */
-
-.box1{
+div{
     width: 200px;
     height: 200px;
     border: 2px solid black;
+}
+/* level 5 start from there  */
+
+.box1{
     background-color: aqua;
 }
 .box1:hover{
@@ -32,11 +34,8 @@ button:active{
 
 /* transition property */
 .box2{
-    width: 200px;
-    height: 200px;
     background-color: blueviolet;
     color: white;
-    border: 2px solid black;
     /* transition-property: all;
     transition-duration: 2s;
     /* transition-timing-function: steps(5); */
@@ -56,11 +55,8 @@ button:active{
 
 /* transform property */
 .box3{
-    width: 200px;
-    height: 200px;
     background-color: blueviolet;
     color: white;
-    border: 2px solid black;
     /* position: absolute;
     top: 40%;
     left: 40%;
@@ -88,11 +84,8 @@ button:active{
 
 /* transform rotate */
 .box4{
-    width: 200px;
-    height: 200px;
     background-color: yellowgreen;
     color: white;
-    border: 2px solid black;
   
     /* transition: all 0.5s ease-in; */
     transition: all 2s ease-in;
@@ -112,11 +105,8 @@ button:active{
 /* transform tanslate */
 
 .box5{
-    width: 200px;
-    height: 200px;
     background-color: blue;
     color: white;
-    border: 2px solid black;
     /* transition: all 0.5s ease-in; */
     transition: all 2s ease-in;
 
@@ -133,11 +123,8 @@ button:active{
 
 /* transform skew */
 .box6{
-    width: 200px;
-    height: 200px;
     background-color: yellow;
     color: white;
-    border: 2px solid black;
     /* transition: all 0.5s ease-in; */
     transition: all 2s ease-in;
 
@@ -152,3 +139,83 @@ button:active{
     /* transform:skew(90deg); */
 }
 
+/* animation */
+.box7{
+    background-color: peru;
+    position: absolute;
+    top: 108px;
+    left: 250px;
+    /* animation-name: coloranimation;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 1s; */
+    /* animation-iteration-count: 5; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: normal; */
+    animation: coloranimation 2s ease-in 1s infinite normal ; 
+}
+
+@keyframes coloranimation {
+    /* from{
+        background-color:peru;
+        left: 250px;
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+    }
+    to {
+        background-color: aqua;
+        left: 600px;
+        width: 400px;
+        height: 400px;
+        font-size: 40px;
+    } */
+
+    /* from{left: 250px;} 
+    to {left: 600px;} */
+
+     0%{
+        background-color:peru;
+        left: 250px;
+        /* width: 200px;
+        height: 200px;
+        font-size: 20px; */
+    }
+    10%{
+        background-color: red;
+    }
+    /* 20%{
+        background-color: green;
+    }
+    30%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: brown;
+    } */
+    50%{
+        background-color: blue;
+    }
+   /*  60%{
+        background-color: wheat;
+    }
+    70%{
+        background-color: blueviolet;
+    }
+    80%{
+        background-color: black;
+    }
+    90%{
+        background-color: maroon; 
+    } */
+    100% {
+        background-color: aqua;
+        left: 600px;
+        /* width: 400px;
+        height: 400px;
+        font-size: 40px; */
+    }
+}
+/* .box7.hover{
+
+} */

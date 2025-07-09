@@ -11,17 +11,18 @@ transtion shorthand - property name | duration | timing-function | delay
 like == transtion:font-sixe 2s ease-in-out 0.2s;
 -----------------------------------------------
 
-css transform property - used to apply 2d and 3d transformation to an element 
+css transform property - used to apply 2d and 3d ----------------------- transformation to an element 
 
 1 transform:rotate - transform rotate(45deg);
+-----------------
 rotate:45deg;
 rotateX:45deg;
 rotateY:45deg;
 rotateZ:45deg;
 
-2 transform:scale- transform : (width, height) ke liye hoti he 
+2 transform:scale- transform : (width, height) ke liye -------------------hoti he 
 
-3 transform:translate - iska mtlb hota he screen  per kisi chis ko move karwana  like hamare pass koi element he jise ham uski actual position se translate karana chahti hu like 20px move karwana chahti ho to ham iska use kar sakte he 
+3 transform:translate - iska mtlb hota he screen  per kisi ---------------------chis ko move karwana  like hamare pass koi element he jise ham uski actual position se translate karana chahti hu like 20px move karwana chahti ho to ham iska use kar sakte he 
 
 transform:translate(20px);
 transform:translate(20px , 50px);
@@ -30,7 +31,24 @@ transform:translateY(-20px);
 transform:translateX(20px);
 transform:translateX(-20px);
 
-4 transform:skew - iska us ham basically hamre element ke khichne ke liye karte hai
+4 transform:skew - iska us ham basically hamre element ke -----------------khichne ke liye karte hai
 
 transform:skew(45deg);
+
+
+Animation
+-----------------
+
+to animate css element
+
+ye transform and transition ka advanced version he isme ham kuch animation property k use karke animation karte he like - animation-name
+        animation-duration
+        animation-timing-function
+        animation-delay
+        animation-iteration-count - iska use ham animation kitni baar hoga uske liye karte he 
+        animation-direction - matlb wo animation kis directio me hoga and kis tarah hoga 4 tarah se kar skte he 
+        - normal , reverse , alternat , alternate-reverse
+
+        animation sorthand - animation myName 2s liner 3s infinite normal
+
 
