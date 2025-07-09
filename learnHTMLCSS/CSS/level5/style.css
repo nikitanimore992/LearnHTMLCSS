@@ -61,19 +61,10 @@ button:active{
     background-color: blueviolet;
     color: white;
     border: 2px solid black;
-    position: absolute;
+    /* position: absolute;
     top: 40%;
     left: 40%;
-    /* transform: rotate(45deg); */
-    /* transform: rotate(90deg); */
-    /* transform: rotate(180deg);
-    transform: rotate(360deg); */
-
-    /* transform: scaleY(2); */
-    /* transform: scaleX(2); */
-    /* transform: scale(2, 1); */
-    /* transform: scale(1, 2); */
-    /* transform: scale(2); */
+     */
     /* transition: all 0.5s ease-in; */
     transition: all 2s ease-in;
 
@@ -82,23 +73,82 @@ button:active{
     background-color: red;
     color: black;
     font-size: 20px;
-    /* transform: scaleY(2); */
-    /* transform: scaleX(2); */
+
+      /* transform: scaleY(2); */
+    transform: scaleX(2);
     /* transform: scale(2, 1); */
     /* transform: scale(1, 2); */
     /* transform: scale(2); */
-
-    /* transform: rotate(360deg); */
-    
-    /* transform: translate(200px); */
-    /* transform: translate(-603px); */
-    /* transform: translateY(-200px); */
-    transform: translateY(200px);
-
-
 
 }
 .box3:active{
     background-color: wheat;
     color: rebeccapurple;
 }
+
+/* transform rotate */
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    color: white;
+    border: 2px solid black;
+  
+    /* transition: all 0.5s ease-in; */
+    transition: all 2s ease-in;
+
+}
+.box4:hover{
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    /* transform: rotate(45deg); */
+    /* transform: rotate(90deg); */
+    /* transform: rotate(180deg);
+    transform: rotate(360deg); */
+    transform: rotate(360deg);
+}
+
+/* transform tanslate */
+
+.box5{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    /* transition: all 0.5s ease-in; */
+    transition: all 2s ease-in;
+
+}
+.box5:hover{
+    background-color: green;
+    color: black;
+    font-size: 20px;
+    transform: translate(200px);
+    /* transform: translate(-603px); */
+    /* transform: translateY(-200px); */
+    /* transform: translateY(200px); */
+}
+
+/* transform skew */
+.box6{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: white;
+    border: 2px solid black;
+    /* transition: all 0.5s ease-in; */
+    transition: all 2s ease-in;
+
+}
+.box6:hover{
+    background-color: brown;
+    color: black;
+    font-size: 20px;
+    transform:skew(45deg);
+    /* transform:skew(135deg); */
+    /* transform:skew(360deg); */
+    /* transform:skew(90deg); */
+}
+

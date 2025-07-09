@@ -12,15 +12,16 @@ like == transtion:font-sixe 2s ease-in-out 0.2s;
 -----------------------------------------------
 
 css transform property - used to apply 2d and 3d transformation to an element 
-1 rotate - transform rotate(45deg);
+
+1 transform:rotate - transform rotate(45deg);
 rotate:45deg;
 rotateX:45deg;
 rotateY:45deg;
 rotateZ:45deg;
 
-2 scale- transform : (width, height) ke liye hoti he 
+2 transform:scale- transform : (width, height) ke liye hoti he 
 
-3 translate - iska mtlb hota he screen  per kisi chis ko move karwana  like hamare pass koi element he jise ham uski actual position se translate karana chahti hu like 20px move karwana chahti ho to ham iska use kar sakte he 
+3 transform:translate - iska mtlb hota he screen  per kisi chis ko move karwana  like hamare pass koi element he jise ham uski actual position se translate karana chahti hu like 20px move karwana chahti ho to ham iska use kar sakte he 
 
 transform:translate(20px);
 transform:translate(20px , 50px);
@@ -28,3 +29,8 @@ transform:translateY(20px);
 transform:translateY(-20px);
 transform:translateX(20px);
 transform:translateX(-20px);
+
+4 transform:skew - iska us ham basically hamre element ke khichne ke liye karte hai
+
+transform:skew(45deg);
+
